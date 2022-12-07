@@ -1,4 +1,6 @@
 from PIL import Image
+import streamlit as st
+
 image = Image.open('Aquarius.jpg')
 
 st.image(image, width = 400)
